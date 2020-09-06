@@ -3,7 +3,7 @@
 3. I am 24 years old. Today I am an ophthalmologist, working in a Regional Clinical Hospital for Children, 1st year after my graduation from Belarusian State Medical University. 
 Unfortunately, I was disappointed in our medical system, and after much thought made a decision to start learning programming. Last year I studied Java on my own about 5 mounth,
 in present time I started learning JavaScript. I can study on my own, I am sure of this after studying 6 years at our medical university :) and I have good motivation to develop.
-4. My skills: Java basics, JavaScript basics, HTML basics. 
+4. My skills: Java basics, JavaScript basics, HTML basics, OOP basics. 
 5. Code examples: 
 ```
 <script>
