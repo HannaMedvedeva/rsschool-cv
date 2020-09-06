@@ -42,6 +42,6 @@ in present time I started learning JavaScript. I can study on my own, I am sure 
 ```
       
       
-6. Experience: for today, is only a selfeducation programming (codewars.com , learn.javascript.ru , some tasks from my friends - developers :))
+6. Experience: for today, is only a selfeducation programming (javarush, codewars.com , learn.javascript.ru , some tasks from my friends - developers :))
 7. Education: BSMU, self education
 8. English: B1, studied in school, university, self education.
