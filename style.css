@@ -1,0 +1,12 @@
+.main-content {
+    font: 1.5rem/1.5rem Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+.main-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

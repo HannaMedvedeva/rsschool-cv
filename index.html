@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV, Anna Medvedeva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="main-content">
+        <img class="main-img" src="myPhoto.jpg" alt="my photo" height="421" width="640">
+        <h1>My CV</h1>
+        <p> <b>name</b>: Anna Medvedeva </p>
+        <p><b>email</b>: <a href="mailto:fyzania@gmail.com">fyzania@gmail.com</a> , telegram: <a
+                href="https://t.me/Fyzania">@Fyzania</a>
+        </p>
+        <p>I am 24 years old. Today I am an ophthalmologist,
+            working in a Regional Clinical Hospital for Children,
+            1st year after my graduation from Belarusian State
+            Medical University. </p>
+        <p>Unfortunately, I was disappointed in our medical system,
+            and after much thought made a decision to start learning
+            programming. Last year I studied Java on my own about 5
+            month, in present time I started learning JavaScript.
+            I can study on my own, I am sure of this after studying 6
+            years at our medical university :)
+            and <b>have good motivation to develop</b> .</p>
+
+
+        <p><b>My skills</b>: Java basics, JavaScript basics, HTML basics, OOP basics.</p>
+
+        <p><b> Code examples</b>:</p>
+        <pre><code>
+
+        function Calculator() {
+            this.read = function () {
+                this.x = +prompt("enter first number", "");
+                this.y = +prompt("enter second number", "");
+            };
+            this.sum = function () {
+                return this.x + this.y;
+            };
+            this.mul = function () {
+                return this.x * this.y;
+            }
+        }
+        let calculator = new Calculator();
+        calculator.read();
+
+        alert("Sum=" + calculator.sum());
+        alert("Mul=" + calculator.mul());
+
+
+        function Accumulator(startingValue) {
+            this.read = function () {
+                this.value += +prompt("enter a number", "");
+            }
+            this.value = +startingValue;
+        }
+        let accumulator = new Accumulator(1);
+
+        accumulator.read();
+        accumulator.read();
+
+        alert(accumulator.value);
+  </code></pre>
+        <p><b>Experience</b>: for today, is only a self education programming (javarush, codewars.com ,
+            learn.javascript.ru
+            , some
+            tasks from my friends - developers :))</p>
+        <p><b>Education</b>: BSMU, self education</p>
+        <p><b>English</b>: B1, studied in school, university, self education.</p>
+
+    </div>
+</body>
+
+</html>

@@ -1,11 +1,13 @@
-1. Anna Medvedeva
-2. email: fyzania@gmail.com, telegram: https://t.me/Fyzania
-3. I am 24 years old. Today I am an ophthalmologist, working in a Regional Clinical Hospital for Children, 1st year after my graduation from Belarusian State Medical University. 
-Unfortunately, I was disappointed in our medical system, and after much thought made a decision to start learning programming. Last year I studied Java on my own about 5 mounth,
-in present time I started learning JavaScript. I can study on my own, I am sure of this after studying 6 years at our medical university :) and I have good motivation to develop.
-4. My skills: Java basics, JavaScript basics, HTML basics, OOP basics. 
-5. Code examples: 
-```
+# My CV
+
+ **name**: Anna Medvedeva
+ **email**: fyzania@gmail.com, telegram: <https://t.me/Fyzania>
+ I am 24 years old. Today I am an ophthalmologist, working in a Regional Clinical Hospital for Children, 1st year after my graduation from Belarusian State Medical University.
+ Unfortunately, I was disappointed in our medical system, and after much thought made a decision to start learning programming. Last year I studied Java on my own about 5 month, in present time I started learning JavaScript. I can study on my own, I am sure of this after studying 6 years at our medical university :) and **I have good motivation to develop**.
+ **My skills**: Java basics, JavaScript basics, HTML basics, OOP basics.
+ **Code examples**:
+
+```javascript
 <script>
     function Calculator() {
         this.read = function () {
@@ -40,8 +42,7 @@ in present time I started learning JavaScript. I can study on my own, I am sure 
     alert(accumulator.value);
 </script>
 ```
-      
-      
-6. Experience: for today, is only a selfeducation programming (javarush, codewars.com , learn.javascript.ru , some tasks from my friends - developers :))
-7. Education: BSMU, self education
-8. English: B1, studied in school, university, self education.
+
+ **Experience**: for today, is only a self education programming (javarush, codewars.com , learn.javascript.ru , some tasks from my friends - developers :))
+ **Education**: BSMU, self education
+ **English**: B1, studied in school, university, self education.
