@@ -10,9 +10,12 @@
 
 
 <body>
-    <div class="main-content">
+    <div class="header">
+        <h1>Hi, my Name is Ann, and this is my CV :)</h1>
         <img class="main-img" src="myPhoto.jpg" alt="my photo" height="421" width="640">
-        <h1>My CV</h1>
+    </div>
+    <div class="main-content">
+
         <p> <b>name</b>: Anna Medvedeva </p>
         <p><b>email</b>: <a href="mailto:fyzania@gmail.com">fyzania@gmail.com</a> , telegram: <a
                 href="https://t.me/Fyzania">@Fyzania</a>
@@ -24,57 +27,31 @@
         <p>Unfortunately, I was disappointed in our medical system,
             and after much thought made a decision to start learning
             programming. Last year I studied Java on my own about 5
-            month, in present time I started learning JavaScript.
+            month, It has now been about 6 months since I started learning JavaScript.
             I can study on my own, I am sure of this after studying 6
             years at our medical university :)
             and <b>have good motivation to develop</b> .</p>
-
-
-        <p><b>My skills</b>: Java basics, JavaScript basics, HTML basics, OOP basics.</p>
+        <div class="linebreak"></div>
+        <p><b>My skills</b>: Java basics, JavaScript basics, HTML & CSS, SASS, GIT, OOP basics.</p>
 
         <p><b> Code examples</b>:</p>
-        <pre><code>
-
-        function Calculator() {
-            this.read = function () {
-                this.x = +prompt("enter first number", "");
-                this.y = +prompt("enter second number", "");
-            };
-            this.sum = function () {
-                return this.x + this.y;
-            };
-            this.mul = function () {
-                return this.x * this.y;
-            }
-        }
-        let calculator = new Calculator();
-        calculator.read();
-
-        alert("Sum=" + calculator.sum());
-        alert("Mul=" + calculator.mul());
-
-
-        function Accumulator(startingValue) {
-            this.read = function () {
-                this.value += +prompt("enter a number", "");
-            }
-            this.value = +startingValue;
-        }
-        let accumulator = new Accumulator(1);
-
-        accumulator.read();
-        accumulator.read();
-
-        alert(accumulator.value);
-  </code></pre>
-        <p><b>Experience</b>: for today, is only a self education programming (javarush, codewars.com ,
-            learn.javascript.ru
-            , some
-            tasks from my friends - developers :))</p>
+        <a href="https://rolling-scopes-school.github.io/hannamedvedeva-JS2020Q3/virtual-keyboard/">virtual keyboard</a>
+        <br>
+        <a href="https://rolling-scopes-school.github.io/hannamedvedeva-JS2020Q3/calculator/" >calculator</a>
+        <div class="linebreak calc"></div>
+        <p><b>Experience</b>: for today, is only a self education programming (rs-school 2020Q3, javarush, codewars.com,
+            learn.javascript.ru, some tasks from my friends - developers :))</p>
         <p><b>Education</b>: BSMU, self education</p>
         <p><b>English</b>: B1, studied in school, university, self education.</p>
 
     </div>
+    <footer class="footer">
+        <a href="https://github.com/HannaMedvedeva"><img src="./assets/Без названия.png" class="footer-img" width=50px
+                height=50px alt="github"></a>
+        <a href="https://app.rs.school/"><img src="https://rs.school/images/rs_school_js.svg" class="footer-img"
+                width=60px height=60px alt="rs-school"></a>
+        <p>Feb. 2021</p>
+    </footer>
 </body>
 
 </html>
